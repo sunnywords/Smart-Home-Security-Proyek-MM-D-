@@ -1,0 +1,42 @@
+LCD 1602A with 12C
+GND = GND esp32
+VCC = 5V esp32
+SDA = GPIO 21 esp32
+SCL = GPIO 22 esp32
+
+SENSOR PIR HC-SR501
+VCC = 5V esp32
+OUT = GPIO 12 esp32
+GNC = GND esp32
+
+RFID RC522
+SDA (Slave Select) → GPIO 5 (ESP32)
+SCK (Clock) → GPIO 18 (ESP32)
+MOSI (Master Out Slave In) → GPIO 23 (ESP32)
+MISO (Master In Slave Out) → GPIO 19 (ESP32)
+RST (Reset) → GPIO 4 (ESP32)
+GND = GND ESP32
+3V3 = 3V3 ESP32
+
+LED Merah
++ = GPIO 16 esp32
+- = GND esp32
+
+LED hijau
++ = GPIO 17 esp32
+- = GND esp32
+
+Buzzer TMB12A05
++ = GPIO 14 esp32
+- = GND esp32
+
+Solenoid Door Lock 12V
+kabel merah = NC pada Relay SONGLE SRD-05VDC-SL-C
+kabel hitam = GND pada baterai ABC 9V
+
+Relay SONGLE SRD-05VDC-SL-C
+NC = kabel merah pada solenoid door lock
+COM = VCC pada baterai ABC 9V
+GND = GND esp32
+VCC = 5V esp32
+IN = GPIO 15 esp32
